@@ -45,7 +45,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-with open("config.json", "r", encoding="utf-8") as f:
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CONFIG_PATH = os.path.join(BASE_DIR, "config.json")
+
+with open(CONFIG_PATH, "r", encoding="utf-8") as f:
     config = json.load(f)
 
 BOT_TOKEN = os.getenv('BOT_TOKEN', config.get('TOKEN', ''))
