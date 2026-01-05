@@ -45,7 +45,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-with open('config/config.json', 'r', encoding='utf-8') as f:
+with open("config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
 BOT_TOKEN = os.getenv('BOT_TOKEN', config.get('TOKEN', ''))
