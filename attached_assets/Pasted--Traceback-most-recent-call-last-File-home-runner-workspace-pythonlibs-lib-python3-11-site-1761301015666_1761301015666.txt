@@ -1,0 +1,53 @@
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_application.py", line 1311, in process_update
+    await coroutine
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot.py", line 912, in says_command
+    await update.message.reply_text(f"❌ Помилка відправки: {e}")
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_message.py", line 1910, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 3055, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 1100, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 810, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Message to be replied not found
+2025-10-24 08:37:09,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8011968734:AAEkfPTjQ_hRzYjz-tWU6vwSmInOFhMkwDU/getUpdates "HTTP/1.1 200 OK"
+2025-10-24 08:37:09,602 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_application.py", line 1311, in process_update
+    await coroutine
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot.py", line 1014, in handle_admin_messages
+    mode = db.get_online_mode(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/database.py", line 219, in get_online_mode
+    cursor.execute('SELECT mode FROM online_modes WHERE user_id = ?', (user_id,))
+sqlite3.OperationalError: no such column: mode

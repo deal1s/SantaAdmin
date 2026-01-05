@@ -1,0 +1,27 @@
+modules = ["python-3.11", "postgresql-16"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["freetype", "lcms2", "libimagequant", "libjpeg", "libtiff", "libwebp", "libxcrypt", "openjpeg", "sqlite", "tcl", "tk", "zlib"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Telegram Bot"
+
+[[workflows.workflow]]
+name = "Telegram Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python bot.py"

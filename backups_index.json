@@ -1,0 +1,34 @@
+{
+  "24B64556INGX": {
+    "file_id": "BQACAgIAAyEGAASqqwWfAANyaSWLGR2yO8CNfEvFFr7cXKrTq28AAviBAAJL_ShJJcrclB1YWwI2BA",
+    "message_id": 114,
+    "channel_id": -1002863334815,
+    "timestamp": "2025-11-25T10:55:21.317721",
+    "total_records": 37,
+    "admin_id": 7247114478
+  },
+  "24B64556AONM": {
+    "file_id": "BQACAgIAAyEGAASqqwWfAAN0aSWNxHlMn0TIe5qgOC4WLYYzOSAAAhSCAAJL_ShJP70v6OecVe02BA",
+    "message_id": 116,
+    "channel_id": -1002863334815,
+    "timestamp": "2025-11-25T11:06:44.944552",
+    "total_records": 37,
+    "admin_id": 7247114478
+  },
+  "A3DFB0013KMZ": {
+    "file_id": "BQACAgIAAyEGAASqqwWfAAN8aSeNgDp30gUpxxr-m_jIvf4lLZIAApp8AAIk2UFJXluojRfcz9I2BA",
+    "message_id": 124,
+    "channel_id": -1002863334815,
+    "timestamp": "2025-11-26T23:30:09.009918",
+    "total_records": 52,
+    "admin_id": 7247114478
+  },
+  "08612012CSUM": {
+    "file_id": "BQACAgIAAyEGAASqqwWfAAOraShIeY_uNvCKV56y1arLtSHXEl8AAtyMAAJ49UBJM9rkAza6gME2BA",
+    "message_id": 171,
+    "channel_id": -1002863334815,
+    "timestamp": "2025-11-27T12:47:53.711032",
+    "total_records": 54,
+    "admin_id": 7247114478
+  }
+}

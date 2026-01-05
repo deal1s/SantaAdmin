@@ -1,0 +1,713 @@
+{
+  "roles": {
+    "columns": [
+      "user_id",
+      "role",
+      "added_by",
+      "added_at",
+      "full_name",
+      "username"
+    ],
+    "rows": [
+      {
+        "user_id": 542858701,
+        "role": "head_admin",
+        "added_by": 7247114478,
+        "added_at": "2025-11-25T08:54:23.570111",
+        "full_name": "️ 🇮‌🇷‌🇴‌🇳‌🇮‌🇸‌",
+        "username": "ironis_m"
+      },
+      {
+        "user_id": 771330006,
+        "role": "head_admin",
+        "added_by": 7247114478,
+        "added_at": "2025-11-24T11:28:26.934150",
+        "full_name": "ᅠᅠ ILL",
+        "username": ""
+      },
+      {
+        "user_id": 910905998,
+        "role": "head_admin",
+        "added_by": 7247114478,
+        "added_at": "2025-11-25T00:07:00.172677",
+        "full_name": "🖤ЦⲈⳄⲀⲢЬ🖤",
+        "username": "cessssaar"
+      },
+      {
+        "user_id": 7301308266,
+        "role": "head_admin",
+        "added_by": 7247114478,
+        "added_at": "2025-11-25T08:32:12.983720",
+        "full_name": "Кіпоть",
+        "username": "kipotoa"
+      },
+      {
+        "user_id": 7898799568,
+        "role": "head_admin",
+        "added_by": 7247114478,
+        "added_at": "2025-11-25T08:40:53.820073",
+        "full_name": "Fight",
+        "username": ""
+      }
+    ]
+  },
+  "bans": {
+    "columns": [
+      "user_id",
+      "banned_by",
+      "reason",
+      "banned_at",
+      "is_active",
+      "banned_by_name",
+      "banned_by_username"
+    ],
+    "rows": []
+  },
+  "mutes": {
+    "columns": [
+      "user_id",
+      "muted_by",
+      "reason",
+      "muted_at",
+      "is_active",
+      "muted_by_name",
+      "muted_by_username"
+    ],
+    "rows": [
+      {
+        "user_id": 7668209021,
+        "muted_by": 7247114478,
+        "reason": "",
+        "muted_at": "2025-11-25T15:49:34.257527",
+        "is_active": 0,
+        "muted_by_name": "Santa",
+        "muted_by_username": "dont_luck"
+      }
+    ]
+  },
+  "blacklist": {
+    "columns": [
+      "user_id",
+      "added_by",
+      "added_at",
+      "reason",
+      "added_by_name",
+      "added_by_username"
+    ],
+    "rows": []
+  },
+  "notes": {
+    "columns": [
+      "id",
+      "user_id",
+      "note_text",
+      "created_at",
+      "created_by_name",
+      "created_by_username",
+      "created_by_id"
+    ],
+    "rows": [
+      {
+        "id": 3,
+        "user_id": 7898799568,
+        "note_text": "якщо хлопець робить брови - він не підарас - він охайний",
+        "created_at": "2025-11-24T12:15:16.986048+02:00",
+        "created_by_name": "Fight",
+        "created_by_username": "",
+        "created_by_id": 0
+      },
+      {
+        "id": 4,
+        "user_id": 7247114478,
+        "note_text": "привіт",
+        "created_at": "2025-11-25T04:42:09.965778+02:00",
+        "created_by_name": "Santa",
+        "created_by_username": "dont_luck",
+        "created_by_id": 7247114478
+      },
+      {
+        "id": 5,
+        "user_id": 7247114478,
+        "note_text": "вкрала козу, не забудь знайти",
+        "created_at": "2025-11-25T18:31:42.178539+02:00",
+        "created_by_name": "Santa",
+        "created_by_username": "dont_luck",
+        "created_by_id": 7247114478
+      }
+    ]
+  },
+  "reminders": {
+    "columns": [
+      "id",
+      "user_id",
+      "target_user_id",
+      "reminder_text",
+      "remind_at",
+      "created_at",
+      "is_sent",
+      "chat_id"
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "user_id": 7247114478,
+        "target_user_id": 7301308266,
+        "reminder_text": "зайти в варзону",
+        "remind_at": "2025-11-25T16:41:28.256227",
+        "created_at": "2025-11-25T16:40:28.256347",
+        "is_sent": 1,
+        "chat_id": -1002646171857
+      },
+      {
+        "id": 2,
+        "user_id": 7247114478,
+        "target_user_id": 7301308266,
+        "reminder_text": "зайти в варзону",
+        "remind_at": "2025-11-25T16:43:36.261006",
+        "created_at": "2025-11-25T16:42:36.261280",
+        "is_sent": 1,
+        "chat_id": -1002646171857
+      },
+      {
+        "id": 3,
+        "user_id": 7247114478,
+        "target_user_id": 7301308266,
+        "reminder_text": "зайти в варзону",
+        "remind_at": "2025-11-25T18:59:00+02:00",
+        "created_at": "2025-11-25T16:57:59.961555",
+        "is_sent": 1,
+        "chat_id": -1002646171857
+      },
+      {
+        "id": 4,
+        "user_id": 7247114478,
+        "target_user_id": 7301308266,
+        "reminder_text": "зайти в варзону",
+        "remind_at": "2025-11-25T19:57:00+02:00",
+        "created_at": "2025-11-25T17:56:38.993385",
+        "is_sent": 1,
+        "chat_id": -1002646171857
+      },
+      {
+        "id": 5,
+        "user_id": 7247114478,
+        "target_user_id": 7247114478,
+        "reminder_text": "зайти в варзону",
+        "remind_at": "2025-11-25T19:59:00+02:00",
+        "created_at": "2025-11-25T17:58:52.243253",
+        "is_sent": 1,
+        "chat_id": -1002646171857
+      }
+    ]
+  },
+  "birthdays": {
+    "columns": [
+      "user_id",
+      "username",
+      "full_name",
+      "birth_date",
+      "added_by",
+      "added_at"
+    ],
+    "rows": [
+      {
+        "user_id": 0,
+        "username": "dont_luck",
+        "full_name": "dont_luck",
+        "birth_date": "12.12.2010",
+        "added_by": 7247114478,
+        "added_at": "2025-11-24T08:52:51.196051"
+      }
+    ]
+  },
+  "birthday_settings": {
+    "columns": [
+      "id",
+      "gif_file_id",
+      "greeting_text"
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "gif_file_id": "CgACAgQAAyEFAASduWDRAAELwMRpJCLhGUsUIV6EYbDGrQdjJIBCeAACqQYAAnqYJVOLmD3uiZbMTTYE",
+        "greeting_text": "Хепі бйоздей, в цей день ти можеш попросити пісюн в будь-якого користувача чату!"
+      }
+    ]
+  },
+  "users": {
+    "columns": [
+      "user_id",
+      "username",
+      "full_name",
+      "first_message_at",
+      "joined_at",
+      "left_at",
+      "invited_by",
+      "invited_by_name",
+      "invited_by_username",
+      "birth_date"
+    ],
+    "rows": [
+      {
+        "user_id": 777000,
+        "username": "",
+        "full_name": "Telegram",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T08:18:48.853772",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 542858701,
+        "username": "ironis_m",
+        "full_name": "️ 🇮‌🇷‌🇴‌🇳‌🇮‌🇸‌",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T11:17:00.047233",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 748951405,
+        "username": "",
+        "full_name": "ㅤpushens",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T15:49:58.842841",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 771330006,
+        "username": "",
+        "full_name": "ᅠᅠ ILL",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T10:59:58.650871",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 910905998,
+        "username": "cessssaar",
+        "full_name": "🖤ЦⲈⳄⲀⲢЬ🖤",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T10:57:46.550705",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 994314382,
+        "username": "cukermen",
+        "full_name": "❄🅰🅽🅳🆁🆈❄",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T11:46:20.776988",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 995341072,
+        "username": "rozlivne",
+        "full_name": "розливне.",
+        "first_message_at": null,
+        "joined_at": "2025-11-26T19:02:47.255050",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 1132968017,
+        "username": "Linusik3940",
+        "full_name": "Lina",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T11:15:08.269866",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 1230583267,
+        "username": "djeniup",
+        "full_name": "Даша",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T10:57:29.579720",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 1452304260,
+        "username": "FARAFLORENS",
+        "full_name": "𝕱𝖆𝖗𝖆 𝕱𝖑𝖔𝖗𝖊𝖓𝖘",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T10:50:58.760970",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 1522685600,
+        "username": "katezavrr",
+        "full_name": "𝒦",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T18:08:54.605547",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 5697235279,
+        "username": "LEOAmur1985",
+        "full_name": "Лео",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T01:25:58.548418",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 5848365250,
+        "username": "BEgdiK0",
+        "full_name": "BEgdiK",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T12:07:46.849438",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 6110786463,
+        "username": "sppeerty1",
+        "full_name": "Екатерина Мизулина",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T08:19:05.598372",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 6753863077,
+        "username": "",
+        "full_name": "empty",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T20:38:51.145633",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 7247114478,
+        "username": "dont_luck",
+        "full_name": "Santa",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T10:49:11.261374",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 7301308266,
+        "username": "kipotoa",
+        "full_name": "Кіпоть",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T08:18:48.526711",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 7557186245,
+        "username": "",
+        "full_name": "Саша",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T08:18:48.828609",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 7668209021,
+        "username": "",
+        "full_name": "Johnny Sins",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T08:18:48.539292",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 7826797536,
+        "username": "",
+        "full_name": "Назар",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T00:08:51.076666",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 7898799568,
+        "username": "",
+        "full_name": "Fight",
+        "first_message_at": null,
+        "joined_at": "2025-11-24T10:56:17.247183",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 8042675778,
+        "username": "Pakimonchik_0",
+        "full_name": "Пакамон",
+        "first_message_at": null,
+        "joined_at": "2025-11-25T16:03:37.416911",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      },
+      {
+        "user_id": 8208258024,
+        "username": "",
+        "full_name": "Анастасія",
+        "first_message_at": null,
+        "joined_at": "2025-11-26T19:30:58.776571",
+        "left_at": null,
+        "invited_by": null,
+        "invited_by_name": null,
+        "invited_by_username": null,
+        "birth_date": null
+      }
+    ]
+  },
+  "say_blocks": {
+    "columns": [
+      "user_id",
+      "blocked_by",
+      "blocked_at",
+      "blocked_by_name",
+      "blocked_by_username"
+    ],
+    "rows": []
+  },
+  "custom_names": {
+    "columns": [
+      "user_id",
+      "custom_name",
+      "set_at"
+    ],
+    "rows": [
+      {
+        "user_id": 542858701,
+        "custom_name": "Нефар",
+        "set_at": "2025-11-25T10:34:04.232074"
+      }
+    ]
+  },
+  "profile_pictures": {
+    "columns": [
+      "user_id",
+      "media_type",
+      "file_id",
+      "set_at"
+    ],
+    "rows": [
+      {
+        "user_id": 7247114478,
+        "media_type": "gif",
+        "file_id": "CgACAgIAAyEFAASduWDRAAELwXppJDIttKwS3xR-utj5_DGuDUMmJAACd4wAAnRwIUkKDh-HAAHJKDs2BA",
+        "set_at": "2025-11-24T10:23:47.252951"
+      }
+    ]
+  },
+  "profile_descriptions": {
+    "columns": [
+      "user_id",
+      "description",
+      "set_at"
+    ],
+    "rows": []
+  },
+  "custom_positions": {
+    "columns": [
+      "user_id",
+      "position_title",
+      "set_at"
+    ],
+    "rows": [
+      {
+        "user_id": 542858701,
+        "position_title": "Грає в очко",
+        "set_at": "2025-11-24T11:21:48.879574"
+      },
+      {
+        "user_id": 7247114478,
+        "position_title": "Satana",
+        "set_at": "2025-11-24T10:49:13.064783"
+      }
+    ]
+  },
+  "command_aliases": {
+    "columns": [
+      "id",
+      "chat_id",
+      "alias_name",
+      "target_command",
+      "created_by",
+      "created_at"
+    ],
+    "rows": [
+      {
+        "id": 16,
+        "chat_id": -1002646171857,
+        "alias_name": "дублери",
+        "target_command": "doubler",
+        "created_by": 7247114478,
+        "created_at": "2025-11-25T09:41:59.401731"
+      }
+    ]
+  },
+  "personal_commands": {
+    "columns": [
+      "id",
+      "chat_id",
+      "command_name",
+      "template_text",
+      "created_by",
+      "created_at"
+    ],
+    "rows": [
+      {
+        "id": 3,
+        "chat_id": -1002646171857,
+        "command_name": "дати копня",
+        "template_text": "@s1 дав копня @s2 @t",
+        "created_by": 7247114478,
+        "created_at": "2025-11-25T01:17:59.735487"
+      },
+      {
+        "id": 4,
+        "chat_id": -1002646171857,
+        "command_name": "пук",
+        "template_text": "@s1 пукнув на @s2 @t",
+        "created_by": 7247114478,
+        "created_at": "2025-11-25T01:23:11.309048"
+      },
+      {
+        "id": 5,
+        "chat_id": -1002646171857,
+        "command_name": "дати в рот",
+        "template_text": "@s1 дав в рот @s2 @t",
+        "created_by": 7247114478,
+        "created_at": "2025-11-25T09:53:18.131934"
+      }
+    ]
+  },
+  "personal_command_media": {
+    "columns": [
+      "id",
+      "command_id",
+      "media_type",
+      "file_id",
+      "created_at"
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "command_id": 4,
+        "media_type": "animation",
+        "file_id": "CgACAgQAAyEFAASduWDRAAELzJdpJXLrhVSGF6aUtnXKr2AnlPd2rgACjAYAAgxUvVAaFEO2szLTljYE",
+        "created_at": "2025-11-25T09:17:02.935010"
+      },
+      {
+        "id": 2,
+        "command_id": 5,
+        "media_type": "animation",
+        "file_id": "CgACAgIAAyEFAASduWDRAAELzRFpJXzHoCRoD0epQGpn52lVsStVBwACSHkAAllx-EqGAAF_hR2DrNc2BA",
+        "created_at": "2025-11-25T09:57:10.225250"
+      }
+    ]
+  },
+  "admin_command_media": {
+    "columns": [
+      "id",
+      "chat_id",
+      "command_name",
+      "media_type",
+      "file_id",
+      "created_at"
+    ],
+    "rows": [
+      {
+        "id": 3,
+        "chat_id": -1002646171857,
+        "command_name": "mute_t",
+        "media_type": "sticker",
+        "file_id": "test_file_id",
+        "created_at": "2025-11-25 14:27:54"
+      },
+      {
+        "id": 4,
+        "chat_id": -1002646171857,
+        "command_name": "mute_t 1m",
+        "media_type": "sticker",
+        "file_id": "CAACAgIAAyEFAASduWDRAAELacZpGuNHxCnAXKnxiVv5Nl-49JZ_XAACHnAAAmAyIElWG5b5tNUBxjYE",
+        "created_at": "2025-11-25T14:30:52.716706"
+      },
+      {
+        "id": 5,
+        "chat_id": -1002646171857,
+        "command_name": "unmute_t",
+        "media_type": "sticker",
+        "file_id": "CAACAgIAAyEFAASduWDRAAELzwRpJcAQj9sgj-WQ8WhWwSbsKI79qwACW3IAAl8QKUm6CXk5wEHMMDYE",
+        "created_at": "2025-11-25T14:41:23.419148"
+      }
+    ]
+  }
+}
